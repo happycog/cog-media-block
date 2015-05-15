@@ -30,6 +30,6 @@
     "url": "https://github.com/happycog/cog-media-block.git"
   },
   "dependencies": {
-    
+    "jquery": "*"
   }
 }
