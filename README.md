@@ -55,6 +55,8 @@ This will produce the following mark-up, and set margins to `2em` rather than th
 </div>
 ```
 
+# Usage
+
 |Mixin|Usage|
-|------|------|
-|`media`|`media` can be called on any element to create a new media block pattern. The `margin` parameter defaults to `1em`|
+|:------|:------|
+|`media(margin)`|`media` can be called on any element to create a new media block pattern. The `margin` parameter defaults to `1em`|
