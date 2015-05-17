@@ -1,0 +1,27 @@
+{
+  "name": "cog-media-block",
+  "version": "0.1.0",
+  "description": "Happy Cog's media block.",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "^0.8.1",
+    "grunt-contrib-copy": "~0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-htmlhint": "*",
+    "grunt-sass": "^0.17.0",
+    "matchdep": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/happycog/cog-media-block.git"
+  },
+  "author": "Happy Cog",
+  "bugs": {
+    "url": "https://github.com/happycog/cog-media-block/issues"
+  },
+  "homepage": "https://github.com/happycog/cog-media-block",
+  "compileTemplates": true
+}

@@ -1,0 +1,18 @@
+.media:before, .media:after {
+  content: ' ';
+  display: table; }
+.media:after {
+  clear: both; }
+.media > .media__img {
+  float: left;
+  margin-right: 1em; }
+  .media > .media__img > img {
+    display: block; }
+  .media > .media__img > .media > .media__img--ext {
+    float: right;
+    margin-left: 1em; }
+.media > .media__body:before, .media > .media__body:after {
+  content: ' ';
+  display: table; }
+.media > .media__body:after {
+  clear: both; }
