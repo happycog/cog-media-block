@@ -8,29 +8,25 @@
     clear: both;
   }
 
-  & > &__img {
-    float: left;
-    margin-right: $margin;
-
+  & > &__img,
+  & > &__img-ext {
     & > img {
       display: block;
     }
+  }
 
-    & > &--ext {
-      float: right;
-      margin-left: $margin;
-    }
+  & > &__img {
+    float: left;
+    margin-right: $margin;
+  }
+
+  & > &__img-ext {
+    float: right;
+    margin-left: $margin;
   }
 
   & > &__body {
-    &:before,
-    &:after {
-      content: ' ';
-      display: table;
-    }
-    &:after {
-      clear: both;
-    }
+    overflow: hidden;
   }
 }
 
