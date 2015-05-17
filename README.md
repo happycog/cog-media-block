@@ -2,6 +2,14 @@
 
 The Media Block cog is inspired by the pattern first developed by [Nicole Sullivan](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/). An image or other HTML element is float to the left of a body element. Text or other HTML elements in the body will not wrap around the floated image.
 
+## Installing via Bower
+
+You can install `cog-media-block` as a bower component:
+
+```
+bower install cog-media-block
+```
+
 ## Default Structure
 
 By default, the following mark-up floats the `media--img` element to the left and assigns a default margin of `1em`.
@@ -55,7 +63,7 @@ This will produce the following mark-up, and set margins to `2em` rather than th
 </div>
 ```
 
-# Usage
+## Usage
 
 |Mixin|Usage|
 |:------|:------|
